@@ -1,0 +1,95 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Miranda's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!--The first part of my navbar styles the light grey color and inserts my "brand", which in this 
+    case is my name. It could be a logo or something similar.-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="navbar-brand">
+                <h2 id=name>Miranda Wozmak</h2>
+            </div>
+
+            <!--The toggler creates a hambuger icon when page is scaled down-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <div class="nav navbar-nav navbar-right" id="menu">
+
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+    <br />
+    <br />
+    <div class="container">
+        <div class="card aboutMe">
+            <div class="page-header">
+                <h1>About Me</h1>
+            </div>
+
+            <!--Second row is a thumbnail with a right margin of 3rem (mr-3), floated left so text wraps around-->
+
+            <div class="row">
+                <div class="col personalPhoto">
+                    <img id=profilePicture src="Profile.png" alt="Placeholder" class="img-thumbnail float-left mr-3">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam in dolores non
+                        possimus! Consequatur aut provident voluptate dignissimos iure, ullam asperiores labore
+                        quia, quos, minus rem. Recusandae libero quibusdam voluptate eveniet placeat animi
+                        dolor
+                        deserunt deleniti culpa et, magni dolores. Deserunt doloremque necessitatibus totam
+                        laudantium nulla in. Optio quidem fugiat dolor ratione ipsa quibusdam, fugit facere
+                        dignissimos nobis assumenda sint, quasi aut, iure quas ullam sit vel veniam et ut
+                        cupiditate? Modi at veritatis sit vitae, deleniti et eaque aspernatur quam nostrum
+                        dolorum
+                        corrupti illo praesentium excepturi dicta nihil, ipsa, itaque repellendus error.
+                        Temporibus
+                        eveniet commodi doloribus sint, a natus ratione assumenda consequuntur fuga ducimus sed
+                        nam
+                        mollitia laudantium iste non debitis exercitationem harum quos autem dolores nesciunt
+                        omnis. Corporis dolor repellendus ipsam, mollitia possimus aliquam repudiandae vitae
+                        cum
+                        praesentium totam laudantium alias veniam ducimus sequi, dicta labore numquam! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+
+    <!--Bottom navbar, or footer-->
+
+    <div class="navbar">
+        <div class="fixed-bottom">
+            <div class="container">
+                <p class="navbar-text">Copywrite 2018</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
